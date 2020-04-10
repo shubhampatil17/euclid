@@ -1,4 +1,4 @@
-package io.github.fosstree.exceptions.json;
+package io.github.fosstree.json;
 
 import com.fasterxml.jackson.databind.JsonNode;
 

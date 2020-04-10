@@ -1,11 +1,11 @@
-package io.github.fosstree.exceptions.http;
+package io.github.fosstree.http;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
 import io.github.fosstree.exceptions.InvalidResponseException;
-import io.github.fosstree.exceptions.json.Json;
+import io.github.fosstree.json.Json;
 import lombok.Builder;
 import okhttp3.*;
 import okhttp3.logging.HttpLoggingInterceptor;

@@ -1,6 +1,5 @@
 package io.github.fosstree.core;
 
-import io.github.fosstree.exceptions.core.Nullifier;
 import lombok.Data;
 import org.junit.Assert;
 import org.junit.Test;

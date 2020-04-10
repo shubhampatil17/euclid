@@ -1,4 +1,4 @@
-package io.github.fosstree.exceptions.core;
+package io.github.fosstree.core;
 
 public final class Nullifier {
 
