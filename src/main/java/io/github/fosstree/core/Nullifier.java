@@ -16,7 +16,7 @@ public final class Nullifier {
     public static <T> T get(FuncInterface<T> chain) {
         try {
             return chain.eval();
-        } catch (NullPointerException e) {
+        } catch (NullPointerException | IndexOutOfBoundsException e) {
             return null;
         }
     }
@@ -32,7 +32,7 @@ public final class Nullifier {
     public static <T> T get(FuncInterface<T> chain, T orElse) {
         try {
             return chain.eval();
-        } catch (NullPointerException e) {
+        } catch (NullPointerException | IndexOutOfBoundsException e) {
             return orElse;
         }
     }
