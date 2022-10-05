@@ -40,7 +40,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <okhttp-version>4.3.1</okhttp-version>
-        <jackson-version>2.10.3</jackson-version>
+        <jackson-version>2.12.6.1</jackson-version>
         <guice-version>4.2.2</guice-version>
         <lombok-version>1.18.12</lombok-version>
         <mockito-version>3.3.3</mockito-version>
